@@ -9,7 +9,7 @@ const RegisterSchema = Yup.object().shape({
 });
 
 function Contack() {
-  const initialState = {
+  const initialState = {  
     name: "",
     email: "",
     url: "",
