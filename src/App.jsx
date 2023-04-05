@@ -1,6 +1,6 @@
 import AboutMe from "./aboutMe/aboutMe";
 import "./App.css";
-import Contack from "./contack/contack";
+
 import Home from "./home/home";
 import Footer from "./Footer/footer";
 

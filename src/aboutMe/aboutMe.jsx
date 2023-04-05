@@ -1,4 +1,10 @@
-import Vector from "../assets/img/Vector.png";
+import BgListening from "../assets/img/bgListening.png";
+import BgReading from "../assets/img/bgReading.png";
+import BgWriting from "../assets/img/bgWriting.png";
+import BgSpeaking from "../assets/img/bgSpeaking.png";
+import BgVocabularies from "../assets/img/vocabularies.png";
+import BgNewsPaper from "../assets/img/newspaper.png";
+import BgStoryZone from "../assets/img/storyZone.png";
 
 function AboutMe() {
   return (
@@ -16,8 +22,8 @@ function AboutMe() {
           data-aos="flip-left"
           className="bg-green-400 h-56 w-56 items-center flex flex-col justify-center rounded-xl"
         >
-          <img className="h-30" src={Vector} alt="" />
-          <p className="flex justify-center font-semibold text-white text-xl pt-6">
+          <img className="h-30" src={BgListening} alt="" />
+          <p className="flex justify-center font-semibold text-white text-xl ">
             Listening
           </p>
         </div>
@@ -25,8 +31,8 @@ function AboutMe() {
           data-aos="flip-left"
           className="bg-green-400 h-56 w-56 items-center flex flex-col justify-center rounded-xl"
         >
-          <img className="h-30" src={Vector} alt="" />
-          <p className="flex justify-center font-semibold text-white text-xl pt-6">
+          <img className="h-30" src={BgReading} alt="" />
+          <p className="flex justify-center font-semibold text-white text-xl">
             Reading
           </p>
         </div>
@@ -34,8 +40,8 @@ function AboutMe() {
           data-aos="flip-left"
           className="bg-green-400 h-56 w-56 items-center flex flex-col justify-center rounded-xl"
         >
-          <img className="h-30" src={Vector} alt="" />
-          <p className="flex justify-center font-semibold text-white text-xl pt-6">
+          <img className="h-30" src={BgWriting} alt="" />
+          <p className="flex justify-center font-semibold text-white text-xl">
             Writing
           </p>
         </div>
@@ -43,8 +49,8 @@ function AboutMe() {
           data-aos="flip-left"
           className="bg-green-400 h-56 w-56 items-center flex flex-col justify-center rounded-xl"
         >
-          <img className="h-30" src={Vector} alt="" />
-          <p className="flex justify-center font-semibold text-white text-xl pt-6">
+          <img className="h-30" src={BgSpeaking} alt="" />
+          <p className="mb-6 flex justify-center font-semibold text-white text-xl">
             Speaking
           </p>
         </div>
@@ -64,8 +70,8 @@ function AboutMe() {
             data-aos="flip-left"
             className="bg-green-400 h-56 w-56 items-center flex flex-col justify-center rounded-xl"
           >
-            <img className="h-30" src={Vector} alt="" />
-            <p className="flex justify-center font-semibold text-white text-xl pt-6">
+            <img className="h-30" src={BgVocabularies} alt="" />
+            <p className="flex justify-center font-semibold text-white text-xl">
               Vocabularies
             </p>
           </div>
@@ -73,8 +79,8 @@ function AboutMe() {
             data-aos="flip-left"
             className="bg-green-400 h-56 w-56 items-center flex flex-col justify-center rounded-xl"
           >
-            <img className="h-30" src={Vector} alt="" />
-            <p className="flex justify-center font-semibold text-white text-xl pt-6">
+            <img className="h-30" src={BgNewsPaper} alt="" />
+            <p className="flex justify-center font-semibold text-white text-xl pb-3">
               Newspaper
             </p>
           </div>
@@ -82,8 +88,8 @@ function AboutMe() {
             data-aos="flip-left"
             className="bg-green-400 h-56 w-56 items-center flex flex-col justify-center rounded-xl"
           >
-            <img className="h-30" src={Vector} alt="" />
-            <p className="flex justify-center font-semibold text-white text-xl pt-6">
+            <img className="h-30" src={BgStoryZone} alt="" />
+            <p className="flex justify-center font-semibold text-white text-xl ">
               Story Zone
             </p>
           </div>

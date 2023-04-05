@@ -3,11 +3,11 @@ import foto from "../assets/img/bg2.png";
 function Home() {
   return (
     <div className="bg lg:h-screen  sm:h-full">
-      <div className="w-full h-full bg-black bg-opacity-60">
+      <div className="w-full h-full bg-black bg-opacity-40">
       <div class=" mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
     <img className="w-16 " src={foto} alt="" />
-      <span class="ml-3 text-xl">Islamic English</span>
+      <span class="ml-3 text-xl text-white">Islamic English</span>
     </a>
     <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
       <a class="mr-5 text-white hover:text-green-500">Home</a>
