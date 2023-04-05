@@ -12,7 +12,7 @@ function AboutMe() {
       <div>
         <p
           data-aos="fade-right"
-          className="flex justify-center font-bold text-3xl text-black pt-10"
+          className="flex justify-center font-bold text-3xl text-black "
         >
           Popular Course
         </p>

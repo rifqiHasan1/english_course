@@ -2,11 +2,10 @@ import foto from "../assets/img/bg2.png";
 
 function Footer() {
   return (
-   
-      <div className="bg-green-600 w-full relative -mb-5 h-[20px]">
-      <footer className="flex xl:flex-row lg:flex-row md:flex-col flex-col justify-between w-full items-center xl:px-22 lg:px-16 md:px-10 sm:px-10 px-10 pt-10 text-base bg-grey-500">
+    <div className="bg-green-600 w-full relative -mb-5 rounded-b-2xl h-[20px]">
+      <footer className="flex xl:flex-row lg:flex-row md:flex-col flex-col justify-between w-full items-center xl:px-16 lg:px-16 md:px-10 sm:px-10 px-10 pt-10 text-base bg-grey-500">
         <div className="flex xl:w-1/4 lg:w-1/4 w-1/2 justify-center gap-x-4 xl:my-0 lg:my-0 my-5  items-center">
-          <img className="w-40" src={foto} alt="" />
+          <img className="w-40  " src={foto} alt="" />
         </div>
         <div className="text-white xl:w-1/2 lg:w-1/2  text-left">
           <h1 className="mb-5 font-bold">Media Social</h1>
@@ -89,7 +88,7 @@ function Footer() {
             </div>
           </li>
         </div>
-        <div className="text-white text-left xl:w-1/2  xl:mt-0 lg:mt-0 mt-10  mb-10">
+        <div className="text-white text-left xl:w-1/2 lg:w-1/4 xl:mt-0 lg:mt-0 mt-10  mb-10">
           <h1 className="mb-5 font-bold">Alamat :</h1>
           <p className="text-[#242424] font-semibold">
             Gedung Artha Graha, Senayan, Kec. Kby. Baru, Kota Jakarta Selatan,
@@ -97,15 +96,14 @@ function Footer() {
           </p>
         </div>
       </footer>
-      <div className=" mt-20">
+      <div className= "mt-20">
         <div className="mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row justify-center items-center">
           <p className="text-white text-sm text-center sm:text-left">
             © Copyright 2023 Islamic English Course
           </p>
         </div>
       </div>
-      </div>
-    
+    </div>
   );
 }
 export default Footer;
